@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/theme/app_theme.dart';
 import 'features/home/screens/home_screen.dart';
 
-/// 修仙录应用根组件
 class XiuxianluApp extends ConsumerWidget {
   const XiuxianluApp({super.key});
 
@@ -12,9 +11,9 @@ class XiuxianluApp extends ConsumerWidget {
     return MaterialApp(
       title: '修仙录',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.dark(),
+      theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.system,
       home: const HomeScreen(),
     );
   }
