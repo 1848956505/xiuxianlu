@@ -238,7 +238,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             thickness: 1,
             color: isDark
                 ? AppColors.darkDivider.withValues(alpha: 0.3)
-                : Colors.grey[200],
+                : AppColors.lightDivider,
           ),
           // 右侧内容区
           Expanded(
@@ -326,7 +326,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           bottom: BorderSide(
             color: isDark
                 ? AppColors.darkDivider.withValues(alpha: 0.3)
-                : Colors.grey[200],
+                : AppColors.lightDivider,
           ),
         ),
       ),

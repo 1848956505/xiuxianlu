@@ -74,7 +74,7 @@ class _TaskScreenState extends ConsumerState<TaskScreen> {
             child: Container(
               height: 42,
               decoration: BoxDecoration(
-                color: AppColors.surfaceVariant,
+                color: AppColors.lightSurfaceVariant,
                 borderRadius: BorderRadius.circular(21),
               ),
               child: TextField(
@@ -583,7 +583,7 @@ class _SubTaskInputState extends ConsumerState<_SubTaskInput> {
                 hintText: '子任务标题...',
                 hintStyle: TextStyle(color: AppColors.textHint, fontSize: 13),
                 filled: true,
-                fillColor: AppColors.surfaceVariant,
+                fillColor: AppColors.lightSurfaceVariant,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                   borderSide: BorderSide.none,

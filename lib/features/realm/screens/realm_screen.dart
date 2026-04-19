@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/realm_config.dart';
 import '../../../domain/models/user_profile_model.dart';
 import '../providers/realm_provider.dart';
@@ -20,7 +19,6 @@ class _RealmScreenState extends ConsumerState<RealmScreen> {
   static const Color _indigoPurple = Color(0xFF6366F1);
   static const Color _indigoPurpleLight = Color(0xFF818CF8);
   static const Color _gold = Color(0xFFD4A574);
-  static const Color _goldLight = Color(0xFFE8C9A0);
 
   bool get _isDark => Theme.of(context).brightness == Brightness.dark;
 
